@@ -1,5 +1,5 @@
 {
-  "name": "auth-identifier",
+  "name": "node-auth-identifier",
   "version": "1.2.0",
   "description": "",
   "main": "dist/index.js",
@@ -12,7 +12,18 @@
     "build": "tsup src/index.ts --dts",
     "dev": "tsup src/index.ts --watch"
   },
-  "keywords": [],
+  "keywords": [
+    "node authentication",
+    "login identifier",
+    "email phone username login",
+    "express login",
+    "next.js authentication",
+    "mongodb login",
+    "postgresql login",
+    "user authentication utility",
+    "node auth identifier",
+    "user input identifier"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
