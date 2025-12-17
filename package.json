@@ -1,16 +1,17 @@
 {
   "name": "auth-identifier",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
-   "main": "dist/index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup src/index.ts --dts",
     "dev": "tsup src/index.ts --watch"
   },
- 
   "keywords": [],
   "author": "",
   "license": "ISC",
