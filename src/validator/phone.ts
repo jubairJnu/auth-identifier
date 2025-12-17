@@ -1,4 +1,4 @@
-export const isPhone = (input: string): boolean => {
-  const regex = /^[+]?[0-9]{10,15}$/;
+export const isPhone = (input: string, min: number, max: number): boolean => {
+  const regex = new RegExp(`/^[+]?[0-9]{${min},${max}}$/;`);
   return regex.test(input);
 };
